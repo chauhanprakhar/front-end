@@ -1,0 +1,16 @@
+.bb1{	
+  width: 400px;
+  border: 3px solid brown;
+  padding: 50px;
+  margin: 20px auto;
+
+}
+
+.bb2 {
+  width: 400px;
+  border: 3px solid brown;
+  padding: 50px;
+  margin: 20px auto;
+  float : center;
+}
+

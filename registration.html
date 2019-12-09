@@ -1,0 +1,69 @@
+<!DOCTYPE>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BloodNexus</title>
+	<link rel= "stylesheet" type="text/css" href= "css1.css" />
+<style>
+    #container ul{
+      list-style: none;
+    }
+    #container ul li{
+      background-color: white;
+      width: 2px solid white;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      color: red;
+      font-size: 20px;
+    }
+    #container ul li:hover{
+      background-color: #388222;
+    }
+    #container ul ul{
+      display: none;
+    }
+    #container ul li:hover > ul{
+      display: block;
+    }
+  </style>
+  <meta charset="utf-8">
+</head>
+<body bgcolor="black">
+	<div class="box1">
+	<h1 style ="text-align:center; font-size:36px; font-family:ariel;"><font color="#900012">BloodNexus</font></h1><br>
+</div>
+	
+
+	<form name="registration" action="" method="post">
+  
+  <div class="container">
+    
+  
+    <label for="unit"><b><font color="#990012">Location</font></b></label>
+    <input type="text" placeholder="enter location" name="psw" required>
+    <font color="#990012">OR</font><br>
+    <a href="location.html">Use my current location</a><br><br>
+
+    <div id="container">
+    <ul>
+      <li>Select Required Blood Type
+        <ul>
+          <li><a href="A+.html">A+</a></li>
+          <li><a href="A-.html">A-</a></li>
+          <li><a href="B+.html">B+</a></li>
+          <li><a href="B-.html">B-</a></li>
+          <li><a href="AB+.html">AB+</a></li>
+          <li><a href="AB-.html">AB-</a></li>
+          <li><a href="O+.html">O+</a></li>
+          <li><a href="O-.html">0-</a></li>
+
+        </ul>
+      </li>
+    </ul>
+  </div>
+</form>
+
+
+</body>
+</html>
